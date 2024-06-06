@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(34,79,49);
+    background: radial-gradient(circle, rgba(34,79,49,1) 0%, rgba(57,173,191,1) 100%);
+    font
+    
+
+    & > h3.subtitle {
+        font-size: 2rem;
+        
+    }
+
+    & > h1.title {
+        font-size: 4rem;
+        margin: 0.5;
+    }
+
+    & > p.description {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    & > nav {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.4rem;
+        margin: 2px;
+        
+
+        & > a {
+            background-color: rgba(12, 100, 31, 0.836);
+            border: none;
+            color: aliceblue;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            width: 110px;
+        }
+    }
+
+    
+
+
+
+}
