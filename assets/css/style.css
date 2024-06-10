@@ -15,11 +15,9 @@
     background: rgb(34,79,49);
     background: radial-gradient(circle, rgba(34,79,49,1) 0%, rgba(57,173,191,1) 100%);
     font
-    
 
     & > h3.subtitle {
         font-size: 2rem;
-        
     }
 
     & > h1.title {
@@ -37,10 +35,9 @@
         gap: 2rem;
         font-size: 1.4rem;
         margin: 2px;
-        
 
         & > a {
-            background-color: rgba(12, 100, 31, 0.836);
+            background-color: rgba(232, 141, 103, 1);
             border: none;
             color: aliceblue;
             padding: 5px;
@@ -53,7 +50,6 @@
         }
     }
 
-    
 
 
 

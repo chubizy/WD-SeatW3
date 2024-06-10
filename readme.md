@@ -56,8 +56,5 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- This project is about Headers and Footers
+- To practice animations and external cascading stylesheets with pages
