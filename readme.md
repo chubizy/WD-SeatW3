@@ -58,3 +58,5 @@ Description of the project in details.
 
 - This project is about Headers and Footers
 - To practice animations and external cascading stylesheets with pages
+
+>>>>>>> 8927d6ec94b922a01b6c244c2d1c40c9e29449de
