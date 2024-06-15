@@ -27,20 +27,23 @@ section {
 }
 
 header.design-one {
-    width: 100vw;
     display: flex;
-    justify-content: space-between;
-    padding: 0.3rem 5vw;
-    background: rgb(241, 241, 241);
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 2px rgb(19, 41, 70);
+    background: rgb(70, 78, 107);
+    padding: 0.6rem 0;
+    border: 0.5px black solid;
 
     & > img.websiteLogo {
-        height: 65px;
+        height: 75px;
     }
 
     & > nav.navigation {
         display: flex;
-        align-items: center;
-        gap: 2rem;
+        gap: 3rem;
     
     & > a.navigation-content {
         font-weight: 800;
@@ -49,3 +52,105 @@ header.design-one {
         }
     }
 }
+
+header.design-two {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5vw;
+    background: rgb(243, 243, 243);
+
+    & > img.websiteLogo {
+        height: 70px;
+    }
+
+    & > nav.navigation {
+        display: flex;
+        gap: 2rem;
+    & > a.navigation-content {
+        color: rgb(24, 24, 24);
+        gap: 3rem;
+        align-content: center;
+        }
+    & > .call-to-action {
+        border: 2px black solid;
+        padding: 0.5rem 0.5rem;
+        border-radius: 4px;
+
+        }
+    }
+}
+
+header.design-three {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    padding: 0.7rem 6rem;
+
+    & > img.websiteLogo {
+        height: 70px;
+    }
+
+    & > nav.navigation {
+        display: flex;
+        gap: 2.5rem;
+
+    & > a.navigation-content {
+        color: rgb(0, 231, 231);
+    }
+    & > design-three.navigaation.gg {
+        font-size: small;
+    }
+    }
+}
+
+header.design-four-upper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(189, 220, 247, 0.836);
+    height: 70px;
+    & > img.websiteLogo {
+        height: 50px;
+    }
+}
+
+header.design-four-bottom {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 100);
+    height: 50px;
+
+    div.left {
+        float: left;
+    }
+
+    & > nav. navigation {
+        gap: 2rem;
+    }
+    & > nav.navigation-content {
+        float: right;
+        color: aliceblue;
+    }
+    
+    }
+
+header.design-five {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    columns: 1;
+    align-items: center;
+
+}
+
+
+
+
+
