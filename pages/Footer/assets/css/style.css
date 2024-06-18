@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+
+section.fd-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20vh;
+    padding: 0.5rem;
+    border: 1px solid black;
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+    }
+
+    & > .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 3rem;
+        border-bottom: 1px solid black;
+        width: 100vw;
+        padding: 0.5;
+    
+        & > .navigation-content {
+        display: flex;
+        color: black;
+        padding: 0.5;
+        }
+
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        gap: 5rem;
+
+            & > .i {
+                padding: 5rem;
+                border: 1px solid black;
+                border-radius: 50%;
+                height: 3rem;
+                width: 3rem;
+            }
+    }
+}
+}
+
+section.fd-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20vh;
+    padding: 0.5rem;
+    background: black;
+    
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+    }
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        gap: 5rem;
+        color: white;
+
+            & > .i {
+                padding: 5rem;
+                border-radius: 50%;
+                height: 3rem;
+                width: 3rem;
+            }
+    }
+
+    & > .disclaimer {
+        border-top: 0.5px solid aliceblue;
+        width: 100vw;
+        padding-top: 1rem;
+        color: aliceblue;
+        font-size: small;
+    }
+}
+
+
+section.fd-three {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    padding: 1rem;
+    background: rgb(54, 45, 45);
+
+    & > img.fdLogo {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: 70px;
+
+    }
+
+    & > .disclaimer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 2.5rem;
+        color: aliceblue;
+        font-size: small;
+        
+
+    }
+
+}
+
+section.fd-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 25vh;
+    border: 1px solid black;
+    background: rgb(12, 23, 48);
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 1rem;
+        color: aliceblue;
+
+            & i {
+                padding: .5rem;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
+                height: 2rem;
+                width: 2rem;
+                
+            }
+        }
+
+    & > .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1.4rem;
+        width: 100vw;
+        padding-top: 1rem;
+    
+        & > .navigation-content {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+        & > .disclaimer {
+        color: aliceblue;
+    }
+        }
+    padding-bottom: 2rem;
+
+    }
+    & > .disclaimer {
+        padding-top: 2rem;
+        color: aliceblue;
+        font-size: x-small;
+    }
+
+}
+
+section.fd-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    height: 30vh;
+    padding: 0.5rem;
+    background: rgb(22, 46, 48);
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+    }
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 1rem;
+        color: aliceblue;
+
+            & i {
+                padding: .5rem;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
+                height: 2rem;
+                width: 2rem;
+                
+            }
+        }
+
+    & > .disclaimer {
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+        padding-top: 1rem;
+        color: aliceblue;
+        font-size: small;
+        padding-right: 1rem;
+        padding-bottom: 1rem ;
+    }
+    & > .navigation {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 1.4rem;
+        width: 100vw;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    
+        & > .navigation-content {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+        & > .disclaimer {
+        color: aliceblue;
+    }
+        }
+}
+}
+
+section.fd-one-animated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20vh;
+    padding: 0.5rem;
+    border: 1px solid black;
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+    }
+
+    & > .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 3rem;
+        border-bottom: 1px solid black;
+        width: 100vw;
+        padding: 0.5;
+    
+        & > .navigation-content {
+        display: flex;
+        color: black;
+        padding: 0.5;
+        }
+
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        gap: 5rem;
+
+            & > .i {
+                padding: 5rem;
+                border: 1px solid black;
+                border-radius: 50%;
+                height: 3rem;
+                width: 3rem;
+            }
+    }
+}
+}
+
+section.fd-two-animated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20vh;
+    padding: 0.5rem;
+    background: black;
+    
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+        &:hover {
+            filter: drop-shadow(3px 3px 3px rgb(230, 250, 255));
+        }
+    }
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        gap: 5rem;
+        color: white;
+
+            & > .i {
+                padding: 5rem;
+                border-radius: 50%;
+                height: 3rem;
+                width: 3rem;
+            }
+    }
+
+    & > .disclaimer {
+        border-top: 0.5px solid aliceblue;
+        width: 100vw;
+        padding-top: 1rem;
+        color: aliceblue;
+        font-size: small;
+    }
+}
+
+
+section.fd-three-animated {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    padding: 1rem;
+    background: rgb(54, 45, 45);
+
+    & > img.fdLogo {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: 70px;
+
+    }
+
+    & > .disclaimer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 2.5rem;
+        color: aliceblue;
+        font-size: small;
+        
+
+    }
+
+}
+
+section.fd-four-animated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 25vh;
+    border: 1px solid black;
+    background: rgb(12, 23, 48);
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 1rem;
+        color: aliceblue;
+
+            & i {
+                padding: .5rem;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
+                height: 2rem;
+                width: 2rem;
+                &:hover {
+                    filter: drop-shadow(3px 3px 3px rgb(230, 250, 255));
+                }
+            }
+        }
+
+    & > .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1.4rem;
+        width: 100vw;
+        padding-top: 1rem;
+    
+        & > .navigation-content {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+        & > .disclaimer {
+        color: aliceblue;
+    }
+        }
+    padding-bottom: 2rem;
+
+    }
+    & > .disclaimer {
+        padding-top: 2rem;
+        color: aliceblue;
+        font-size: x-small;
+    }
+
+}
+
+section.fd-five-animated {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    height: 30vh;
+    padding: 0.5rem;
+    background: rgb(22, 46, 48);
+
+    & > img.fdLogo {
+        display: flex;
+        height: 75px;
+        padding: 0.8rem;
+        &:hover {
+            filter: drop-shadow(3px 3px 3px rgb(230, 250, 255));
+        }
+    }
+
+    & > .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 1rem;
+        color: aliceblue;
+
+            & i {
+                padding: .5rem;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
+                height: 2rem;
+                width: 2rem;
+                &:hover {
+                    filter: drop-shadow(1px 1px 1px rgb(230, 250, 255));
+                }
+            }
+        }
+
+    & > .disclaimer {
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+        padding-top: 1rem;
+        color: aliceblue;
+        font-size: small;
+        padding-right: 1rem;
+        padding-bottom: 1rem ;
+    }
+    & > .navigation {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 1.4rem;
+        width: 100vw;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    
+        & > .navigation-content {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+        & > .disclaimer {
+        color: aliceblue;
+        &:hover {
+            filter: drop-shadow(3px 3px 3px rgb(230, 250, 255));
+        }
+    }
+        }
+}
+}
+
+
+
+
+
