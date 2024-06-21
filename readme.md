@@ -50,10 +50,13 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project?
+
 This project is to showcase the different designs and animations of header and and footer using html and external cascading style sheet
 - Whats the purpose?
+
 To practice and familiarize the variation of properties and values in HTML and Css. It also aim to enhance our skills in writing code.
 - What are key components?
+
 Static header: This five header shows different designs in a static mode, means that when you hover the mouse over the specific design, icon, or navigation, there is no movement that will happen. The header is located at the top of the page which is easily located, and most of the information about the web page like Home, About Us, and Email is place in here.
 Animated header: In this, you will see the uniqueness of the designs with animation which enable the design to be interactive and responsive.
 
@@ -61,6 +64,7 @@ Static footer: This five footer designs shows in a static mode, means that when 
 Animated Footer: In this, you will see the uniqueness of the designs with animation which enable the design to be interactive and responsive.
 
 - What technology used and how it is used?
+
 This project is consist of HtML (Hypertext markup Language) is a main tool in creating web pages. Along here is the cascading style sheet where you can enhance and add different designs and animation. It also serve as the color to HTML
 
 
