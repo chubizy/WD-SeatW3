@@ -1,62 +1,51 @@
-<a name="readme-top">
+
+
+<h1 align="center">
+    Hi, there! 👋
+    <br>
+    This is all about Web Design Projects, Seatworks, and Hands on activity. 
+    <br>
+</h1>
 
 <br/>
 
-<br />
 <div align="center">
-  <a href="https://github.com/chubizy/">
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Web Design Project</h3>
+ 
+ Currently learning HTML, CSS, and JavaSript
+
+ </div>
+ 
+<div align="center"> 
+  <a href="202310895@gmail.com">
+    <i class="fa-solid fa-envelope-circle-check"></i> />
+  </a>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Welcome! This project is made up of different seatworks in Web Design and Client Scripting.
+  
+  This project includes resume, footer and headers (static and animated) and others to practice animations and external cascading style sheets with pages. <br>
 </div>
 
-<br />
+ <hr/>
+ 
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=chubizy/WD-SeatW3)
+<h2 align="center">Languages</h2>
+<br/>
+<div align="center">
+    C++   HTML    CSS<br>
+</div>
 
----
+<br/>
+<hr/>
 
-<br />
-<br />
+  <br/><br/><br/>
+</div>
 
-<!-- TODO: If you want to add more layers for your readme -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#overview">Overview</a>
-      <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
-          <a href="#technology">Technology</a>
-        </li>
-      </ol>
-    </li>
-    <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
-    <li>
-      <a href="#resources">Resources</a>
-    </li>
-  </ol>
-</details>
 
----
 
-## Overview
+<br/><br/>
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+<hr/>
 
-- This project is about Headers and Footers
-- To practice animations and external cascading stylesheets with pages
+<br/>
 
->>>>>>> 8927d6ec94b922a01b6c244c2d1c40c9e29449de
+<br/>

@@ -299,20 +299,26 @@ section.fd-one-animated {
         border-bottom: 1px solid black;
         width: 100vw;
         padding: 0.5;
+        transition: transform 0.2s ease 0s;
     
         & > .navigation-content {
         display: flex;
         color: black;
         padding: 0.5;
+        &:hover {
+            transform: translateY(-10px);
         }
+        }
+        
 
 
     & > .icons {
-        display: flex;
+        display: none ;
         align-items: center;
         justify-content: center;
         height: 100px;
         gap: 5rem;
+        }
 
             & > .i {
                 padding: 5rem;
@@ -321,9 +327,10 @@ section.fd-one-animated {
                 height: 3rem;
                 width: 3rem;
             }
+
     }
 }
-}
+
 
 section.fd-two-animated {
     display: flex;
@@ -427,6 +434,7 @@ section.fd-four-animated {
         height: 100%;
         gap: 1rem;
         color: aliceblue;
+        transition: transform 0.2s ease 0s;
 
             & i {
                 padding: .5rem;
@@ -436,6 +444,9 @@ section.fd-four-animated {
                 width: 2rem;
                 &:hover {
                     filter: drop-shadow(3px 3px 3px rgb(230, 250, 255));
+                }
+                &:hover {
+                    transform: translateY(-7px);
                 }
             }
         }
@@ -497,13 +508,14 @@ section.fd-five-animated {
 
             & i {
                 padding: .5rem;
-                border: 1px solid rgb(255, 255, 255);
-                border-radius: 50%;
-                height: 2rem;
-                width: 2rem;
+                height: 2.1rem;
+                width: 2.1rem;
                 &:hover {
+                    border: 2px solid rgb(255, 255, 255);
+                border-radius: 50%;
                     filter: drop-shadow(1px 1px 1px rgb(230, 250, 255));
                 }
+                
             }
         }
 
